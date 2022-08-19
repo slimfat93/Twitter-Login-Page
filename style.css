@@ -1,0 +1,217 @@
+.div-page {
+  height: 100vh;
+  display: flex;
+}
+
+.div-left {
+  max-width: 54%;
+  width: 54%;
+  height: 100%;
+  background-image: url("./background-twitter.png");
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.logo-twitter {
+  width: 370px;
+}
+.div-right {
+  width: 46%;
+  background-color: white;
+  padding: 16px;
+  max-height: 100%;
+}
+.login-module {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-items: left;
+  padding: 20px;
+}
+
+.logo-twitter-small {
+  color: rgb(29, 155, 240);
+  width: 42.57px;
+  display: block;
+  padding-bottom: 12px;
+}
+
+#slogan {
+  margin: 30px 0px;
+  font-size: 64px;
+  word-break: keep-all;
+}
+
+h3 {
+  margin-bottom: 32px;
+}
+.div-google-signup {
+  display: flex;
+  margin: 5px;
+}
+.div-google-signup :hover {
+  background-color: rgb(168, 208, 245);
+}
+
+.button-google-signup {
+  background-color: white;
+  border: 1px solid #dadce0;
+  padding: 8px 30px;
+  border-radius: 50px;
+  display: flex;
+  text-align: center;
+  justify-items: center;
+  justify-content: center;
+  width: 300px;
+}
+
+.google-logo {
+  width: 18px;
+  padding-top: 0.5px;
+}
+
+#google-signup-link {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  margin-left: 7px;
+  font-weight: bold;
+}
+
+.div-apple-signup {
+  display: flex;
+  margin: 5px;
+}
+.button-apple-signup {
+  background-color: white;
+  border: 1px solid #dadce0;
+  padding: 8px 28px;
+  border-radius: 50px;
+  display: flex;
+  text-align: center;
+  justify-items: center;
+  justify-content: center;
+  width: 300px;
+}
+
+.div-apple-signup :hover {
+  background-color: gray;
+}
+
+.apple-logo {
+  width: 22px;
+}
+
+#apple-signup-link {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  margin-left: 7px;
+  font-weight: bold;
+}
+
+.hyphen {
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid rgb(218, 215, 215);
+  flex-direction: row;
+  align-items: center;
+}
+.-or- {
+  width: 250px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#div-or {
+  margin: 6px;
+  padding-bottom: 5px;
+}
+
+.div-or- {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+}
+
+.div-agree-term {
+  width: 300px;
+  margin-left: 5px;
+}
+#agree-term {
+  font-size: 11px;
+  margin: 5px;
+}
+.div-ask-to-signin {
+  margin-top: 40px;
+}
+#question-to-signin {
+  font-size: 17px;
+  margin: 0px 0px 20px 5px;
+}
+
+.div-signin-button {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 50px;
+  padding: 8px 30px;
+  margin-left: 5px;
+  color: rgb(26, 140, 216);
+  font-weight: bold;
+}
+
+a.div-signin-button:hover {
+  text-decoration: none;
+  background-color: rgb(165, 245, 243);
+}
+
+.div-new-signup-link {
+  margin-left: 5px;
+}
+.new-signup-link {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(26, 140, 216);
+  border-radius: 50px;
+  padding: 8px 30px;
+  color: white;
+  font-weight: bold;
+}
+
+a.new-signup-link:hover {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(27, 132, 202);
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  font-size: 15px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.footer span a {
+  padding: 3px;
+  color: grey;
+  margin: 3px;
+}
+
+.footer span a:hover {
+}
